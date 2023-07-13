@@ -6,7 +6,6 @@
 
 body {
   font-family: "Roboto" sans-serif;
-  font-family: "Raleway" sans-serif;
   color: #434455;
   background-color: var(--baclground-color);
 }
@@ -24,6 +23,7 @@ body {
 
 .logo-span {
   color: var(--logo-color);
+  font-family: "Raleway" sans-serif;
 }
 
 .nav-list {
