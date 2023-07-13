@@ -10,7 +10,7 @@ body {
   background-color: var(--baclground-color);
 }
 /* Header */
-.logo-link {
+.link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -26,12 +26,12 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-.nav-list {
+.list {
   list-style: none;
 }
 
   
-.nav-list-items-link {
+.link {
   text-decoration: none;
   font-family: Roboto;
   font-size: 16px;
