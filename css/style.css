@@ -1,3 +1,49 @@
-body {
-    font-family: 'Roboto' sans-serif;
+:root {
+  --baclground-color: #ffffff;
+  --logo-color: #2e2f42;
+  --list-items-color: #2e2f42;
 }
+
+body {
+  font-family: "Roboto" sans-serif;
+  font-family: "Raleway" sans-serif;
+  color: #434455;
+  background-color: var(--baclground-color);
+}
+/* Header */
+.logo-link {
+  font-family: "Raleway" sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+
+.logo-span {
+  color: var(--logo-color);
+}
+
+.nav-list {
+  list-style: none;
+}
+
+  
+.nav-list-items-link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--list-items-color);
+}
+
+.nav-list-items-link:hover 
+.nav-list-items-link:focus {
+color: #404bbf;
+
+  }
