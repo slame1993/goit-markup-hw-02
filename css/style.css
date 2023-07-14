@@ -4,6 +4,7 @@
   --list-items-color: #2e2f42;
   --logo-web-locor: #4d5ae5;
   --adress-color: #434455;
+  --footer-info-color: #f4f4fd;
 }
 
 body {
@@ -68,4 +69,136 @@ body {
 
 .adress-list:focus {
   color: #404bbf;
+}
+
+/* section solution */
+
+.section-solution {
+  background-color: var(--logo-color);
+}
+
+.section-solution-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.section-solution-btn {
+  background-color: var(--logo-web-locor);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.section-solution-btn:hover {
+  background-color: #404bbf;
+}
+
+.section-solution-btn:focus {
+  background-color: #404bbf;
+}
+
+/* section desc */
+
+.list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--list-items-color);
+}
+
+.list-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--adress-color);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--list-items-color);
+}
+
+/* team secion */
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--list-items-color);
+}
+
+.team-sectin-list {
+  color: #ffffff;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--logo-color);
+}
+
+.logo-span-footer {
+  color: #f4f4fd;
+}
+
+.footer-info {
+  line-height: 1.5;
+  color: var(--footer-info-color);
+  letter-spacing: 0.02em;
+}
+
+/* portfolio */
+
+.list-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-web-locor);
+  background-color: var(--footer-info-color);
+  cursor: pointer;
+}
+
+.list-btn:hover {
+  color: #ffffff;
+  background-color: #404BBF;
+}
+
+.list-btn:focus {
+  color: #ffffff;
+  background-color: #404BBF;
+}
+
+.filter-desc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--list-items-color);
+
+}
+
+.filter-name {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--adress-color);
 }
